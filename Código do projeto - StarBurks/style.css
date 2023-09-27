@@ -1,0 +1,489 @@
+/*
+    @DEIVIDX_OFC
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    padding: 30px 20px;
+    min-height: 20%;
+    background-color: rgb(30, 70, 42);
+}
+.barras{
+    width: 100%;
+}
+.barras img{
+    width: 100%;
+}
+.img-redimencion{
+    margin-left: 10px;
+}
+.menu{
+    margin-top: -60px;
+    text-align: right;
+    width: 100%;
+}
+.menu ul li{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 0 40px;
+    display: inline-block;
+}
+.menu ul li:hover{
+    transition: 0.5s;
+    font-size: 35px;
+    color: rgb(5, 255, 88);
+}
+
+section{
+    
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.circ{
+    transition: 1s;
+    position: absolute;
+    background-color: rgb(30, 70, 42);;
+    bottom: -50px;
+    right: -250px;
+    width: 750px;
+    height: 800px;
+    border-radius: 100%;
+}
+.copo{
+   transition: 1s;
+    position: absolute;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+.sobre{
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.copo img{
+    transition: 1s;
+    position: absolute;
+    width: 50%;
+}
+.redes{
+    
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 460px;
+   width: 100%;
+   height: 100%;
+   
+}
+.redes img:hover{
+    width: 27px;
+    transition: 0.4s;
+}
+.redes img{
+    transition: 1s;
+    margin-bottom: 20px;
+    width: 25px;
+    display: block;
+}
+.texto-sobre{
+    position: relative;
+    width: 55%;
+    height: 100%;
+}
+
+.texto{
+    width: 100%;
+    padding: 0 2%;
+    margin: 0 50px;
+    margin-top: 100px;
+    
+}
+.texto h1{
+    transition: 1s;
+    font-family: Verdana;
+    font-size: 50px;
+}
+.texto-sobre h1 span{
+    transition: 0.2s;
+    color: rgb(2, 92, 29);
+}
+.texto p{
+    transition: 0.3s;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+button{
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 0 5%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(30, 70, 42);
+    border: 1px solid rgb(2, 92, 29);
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(51, 117, 71);
+}
+@media screen and (max-width: 1150px){
+    .circ{
+        position: absolute;
+        background-color: rgb(30, 70, 42);;
+        bottom: -50px;
+        right: -250px;
+        width: 680px;
+        height: 680px;
+        border-radius: 100%;
+    }
+    .redes{
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 390px;
+       width: 100%;
+       height: 100%;
+    }
+    .texto-sobre{
+        width: 55%;
+        height: 100%;
+    }
+
+    .texto{
+        width: 100%;
+        padding: 0 2%;
+        margin: 0 50px;
+        margin-top: 100px;
+        
+    }
+    .texto h1{
+        font-family: Verdana;
+        font-size: 44px;
+    }
+    .texto p{
+        padding: 20px 0;
+        width: 100%;
+        font-size: 20px;
+        font-family: verdana;
+    }
+}
+@media screen and (max-width: 1110px){
+    .texto-sobre{
+        width: 55%;
+        height: 100%;
+    }
+
+    .texto{
+        width: 100%;
+        padding: 0 ;
+        margin: 0 10px;
+        margin-top: 100px;
+        
+    }
+    .texto h1{
+        font-family: Verdana;
+        font-size: 44px;
+    }
+    .texto p{
+        padding: 20px 0;
+        width: 100%;
+        font-size: 18px;
+        font-family: verdana;
+    }
+    button{
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 0 5%;
+        height: 40px;
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+        background-color: rgb(30, 70, 42);
+        border: 1px solid rgb(2, 92, 29);
+        border-radius: 20px;
+    }
+    .circ{
+        position: absolute;
+        background-color: rgb(30, 70, 42);;
+        bottom: -50px;
+        right: -250px;
+        width: 650px;
+        height: 700px;
+        border-radius: 100%;
+    }
+    .redes{position: absolute;
+        margin-top: 200px;
+        margin-left: 360px;
+       width: 100%;
+       height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 886px){
+    html, body{
+        position: fixed;
+        overflow-y: auto;
+        height: 100%;
+
+    }
+    header{
+        width: 100%;
+        position: relative;
+        min-height: 23%;
+        background-color: rgb(30, 70, 42);
+    }
+    .barras{
+        position: absolute;
+        width: 100%;
+        height:55px;
+    }
+    .barras img{
+        position: fixed;
+        width: 100%;
+    }
+    section{
+        position:relative;
+        width: 100%;
+        height: 100px;
+    }
+    .circ{
+        position: absolute;
+        background-color: rgb(30, 70, 42);
+        top: 550px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        height: 504px;
+        border-radius: 0%;
+        text-align: center;
+
+    }
+    .copo{
+        position: absolute;
+        max-width: 100%;
+        height: 100%;
+    }
+    .sobre{
+        width: 100%;
+        height: 100%;
+    }
+    .copo img{
+        position: absolute;
+        margin-top: 50px;
+        max-width: 30%;
+        transform: translateX(-50%);
+    }
+    .redes{position: absolute;
+        margin-top: 430px;
+        margin-left: -40px;
+       width: 100%;
+       height: 10%;
+    }
+    .redes img{
+        margin-left: 100px;
+        margin-bottom: 20px;
+        max-width: 26px;
+        display: inline;
+    }
+    .redes img:hover{
+        width: 27px;
+        transition: 0.4s;
+    }
+    
+    .img-redimencion{
+        
+        margin-left: 50%;
+        transform: translatex(-50%) translateY(-30%);
+        min-width: 10%;
+    }
+    .menu{position: relative;
+        margin-top: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .menu ul li{
+        position: relative;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        padding: 0 20px;
+        display: inline-block;
+    }
+    .menu ul li:hover{
+        transition: 0.5s;
+        font-size: 35px;
+        color: rgb(5, 255, 88);
+    }
+
+    .texto-sobre{
+        
+        position: relative;
+        width: 85%;
+        height: 500px;
+    }
+    
+    .texto{
+        width: 100%;
+        padding: 0 2%;
+        margin: 0 50px;
+        margin-top: 50px;
+        
+    }
+    .texto h1{
+        text-align: center;
+        font-family: Verdana;
+        font-size: 50px;
+    }
+    .texto-sobre h1 span{
+        color: rgb(2, 92, 29);
+    }
+    .texto p{
+        text-align: justify;
+        padding: 20px 0;
+        max-width: 100%;
+        font-size: 25px;
+        font-family: verdana;
+    }
+    
+    button{
+       margin-left: 50%;
+        margin-top: 10px;
+        max-width: 20%;
+        height: 40px;
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+        background-color: rgb(30, 70, 42);
+        border: 1px solid rgb(2, 92, 29);
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-height: 752px){
+    .circ{
+        position: absolute;
+        height: 700px;
+    }
+}
+@media screen and (max-height: 640px){
+    .menu{
+        margin-top: -60px;
+        text-align: right;
+        width: 100%;
+        margin-left: -350px;
+    }
+    .menu ul li{
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        
+        padding: 0 20px;
+        display: inline-block;
+    }
+    .menu ul li:hover{
+        transition: 0.5ms;
+        font-size: 35px;
+        color: rgb(5, 255, 88);
+    }
+    
+}
+
+@media screen and (max-width: 727px){
+    .texto h1{
+        transition: 1s;
+    }
+    .texto span{
+        transition: 0.2s;
+    }
+    .circ{
+        display: block;
+        position: absolute;
+        background-color: rgb(30, 70, 42);
+        top: 770px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        height: 84px;
+        border-radius: 0%;
+        text-align: center;
+
+    }
+    .copo{
+        display: none;
+    }
+    .redes{
+        margin-top: 10px;
+
+    }
+}
+@media screen and (max-width: 560px){
+    .menu{position: relative;
+        margin-top: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .menu ul li{
+        position: relative;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        padding: 0 20px;
+        display: inline-block;
+    }
+    .menu ul li:hover{
+        transition: 0.5s;
+        font-size: 25px;
+        color: rgb(5, 255, 88);
+    }
+}
+@media screen and (max-width: 501px){
+    .redes{
+        display: none;
+    }
+    .circ{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .menu{position: relative;
+        margin-top: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .menu ul li{
+        position: relative;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        padding: 0 10px;
+        display: inline-block;
+    }
+    .menu ul li:hover{
+        transition: 0.5s;
+        font-size: 23px;
+        color: rgb(5, 255, 88);
+    }
+}
+
+/*
+    @DEIVIDX_OFC
+*/
